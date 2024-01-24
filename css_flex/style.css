@@ -1,0 +1,27 @@
+.row{
+    width: 70%;
+    height: 400px;
+    background-color: goldenrod;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* vh-viewport height */
+}
+.col{
+    width: 20%;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}

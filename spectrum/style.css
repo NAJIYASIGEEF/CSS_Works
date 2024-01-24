@@ -1,0 +1,31 @@
+.row{
+    width: 100%;
+    height: 400px;
+}
+
+.col{
+    width: 20%;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+}
+
+.color-cream{
+    background-color: bisque;
+}
+
+.color-blue{
+    background-color: blueviolet;
+}
+
+.color-green{
+    background-color: palegreen;
+}
+
+.color-plum{
+    background-color: plum;
+}
+
+.color-orange{
+    background-color: orangered;
+}

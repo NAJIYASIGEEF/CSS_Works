@@ -1,0 +1,97 @@
+CSS - Cascading Style Sheets
+
+Different type of CSS:
+                - Inline CSS   -> <h1 style="color : red;"></h1>
+                - Internal CSS
+                - External CSS
+
+Internal CSS :
+        - tag selector:-
+            body{  
+            background-color: black;
+            color: white;
+            }
+        - id selector
+            #main-head{   
+            color: yellow;
+            text-decoration: none;
+            }
+        - class selector
+            .text-success{
+            color: green;
+            }
+
+Global selector - *{ /* global selectors */
+                        margin: 0;
+                    }
+
+
+CSS Units:
+        - Absolute Units - fixed
+            px
+        - Relative Units - responsive
+            %,vw(viewport width), vh(viewport height), em, rem
+
+
+/* danger => red */
+/* success => green */
+/* warning => yellow */
+/* dark => black */
+/* primary => blue */
+
+
+Box Model
+        - Margin=> outer space of an element border
+        - Border
+        - Padding =>space inside the element border
+
+margin-right: auto ->element in left
+margin-left: auto ->element in right
+
+
+CSS Positions:
+    - static
+    - Absolute
+    - Relative
+    - fixed
+    - sticky
+
+
+CSS Flex
+
+.parent{
+    display:flex;
+    justifycontent:space-around;  # horizontal styling
+}
+
+justifycontent :- space-between, space-around, space-evenly
+
+
+CSS Grid
+
+2 dimensional styling
+fr-fraction unit only used in grid property
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* grid-row-gap: 10px;
+    grid-column-gap: 10px; */
+    grid-gap: 10px;
+}
+
+
+
+CSS Framework => Bootstrap
+
+
+
+
+
+
+
+
+# css gradient generator
+# google fonts
+# font awesome
+cdn->content delivery network

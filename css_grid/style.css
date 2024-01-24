@@ -1,0 +1,27 @@
+.row{
+    width: 80%;
+    height: 600px;
+    background-color: turquoise;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 col */
+    grid-template-rows: 1fr 1fr 1fr;  /* 3 row */
+    /* grid-row-gap: 10px;
+    grid-column-gap: 10px; */
+    grid-gap: 10px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col{
+    background-color: thistle;
+    border: 1px solid black;   
+}
+
+.row :nth-child(1){
+    background-color: blueviolet;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

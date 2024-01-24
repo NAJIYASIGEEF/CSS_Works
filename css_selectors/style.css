@@ -1,0 +1,43 @@
+body{  /* tag selector */
+    background-color: black;
+    color: white;
+}
+
+h1{  /* tag selector */
+    text-align: center;
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-decoration-color: blue;
+}
+
+#main-head{   /* id selector */
+    color: yellow;
+    text-decoration: none;
+}
+
+.text-success{  /* class selector */
+    color: green;
+}
+
+.text-primary{
+    color: blue;
+}
+
+.text-danger{
+    color: red;
+}
+
+.text-warning{
+    color: yellow;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+/* danger => red */
+/* success => green */
+/* warning => yellow */
+/* dark => black */
+/* primary => blue */
